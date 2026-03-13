@@ -1,10 +1,27 @@
 @import './base.css';
 
+:root {
+  --color-primario: #e67e22;
+  --color-secundario: #d35400;
+  --color-texto: #333;
+  --fuente-principal: 'Arial', sans-serif;
+}
+
+/* Estilos globales opcionales */
+body {
+  margin: 0;
+  font-family: var(--fuente-principal);
+  color: var(--color-texto);
+  background-color: #f9f9f9;
+}
+
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
+  
 }
 
 a,
@@ -28,7 +45,7 @@ a,
   }
 
   #app {
-    display: grid;
+    display: block;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }

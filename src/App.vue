@@ -1,12 +1,22 @@
+<!-- src/App.vue -->
 <script setup lang="ts">
-import {RouterView } from 'vue-router'
-
+import { RouterView } from 'vue-router'
+import Header from '@/components/Header-component.vue'
 </script>
 
 <template>
-  <RouterView />
-</template>
+  <Header />
+  <main>
+    <RouterView />
+  </main>
 
-<style scoped>
+  <!-- Aquí más adelante pondrás el Footer -->
+</template>
+<style>
+
+main {
+  min-height: calc(100vh - 160px); /* Ajusta según altura de header y footer */
+  padding: 2rem;
+}
 
 </style>

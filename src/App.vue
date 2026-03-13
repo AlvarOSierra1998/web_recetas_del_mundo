@@ -15,8 +15,11 @@ import Header from '@/components/Header-component.vue'
 <style>
 
 main {
-  min-height: calc(100vh - 160px); /* Ajusta según altura de header y footer */
+  min-height: calc(110vh - 160px); /* Ajusta según altura de header y footer */
   padding: 2rem;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
 }
 
 </style>

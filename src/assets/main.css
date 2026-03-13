@@ -4,23 +4,28 @@
   --color-primario: #e67e22;
   --color-secundario: #d35400;
   --color-texto: #333;
-  --fuente-principal: 'Arial', sans-serif;
+  --fuente-principal: 'Poppins', sans-serif;
 }
 
 /* Estilos globales opcionales */
-body {
-  margin: 0;
+html, body {
   font-family: var(--fuente-principal);
   color: var(--color-texto);
   background-color: #f9f9f9;
+  margin: 0 ;
+  padding: 0 ;
+  width: 100% ;
+  
+  overflow-x: hidden ;
 }
 
-
+.container{
+  
+}
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   
 }
 
